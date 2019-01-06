@@ -17,7 +17,7 @@ namespace SumDivisbleBy3_5
 
                 while (maxNumber != "exit")
                 {
-                    //Calculate divisibles by 3 & 5
+                    //Calculate divisibles by 3 & 5 
                     decimal sum = CalculateDivisbles(Convert.ToDecimal(maxNumber));
                     Console.WriteLine(sum);
                     maxNumber = Console.ReadLine();
